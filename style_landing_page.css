@@ -1,0 +1,609 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+
+}
+/* Primeiro Container */
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background-image: url(/images/background_landing_page.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* faz o vídeo preencher a tela */
+  z-index: -1;
+  filter: blur(5px);
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Header Horizontal */
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+.paginas{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 25px;
+}
+
+.item-pag{
+    display: block;
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-pag a{
+    color: white; 
+    text-decoration: none;
+}
+
+.item-pag:hover{
+    border-bottom: 1px solid white;
+}
+
+
+.logo{
+    display: block;
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.logo p{
+    font-family: 'serious1', sans-serif;
+    font-size: 20px;
+}
+
+.logo:hover{
+    border-bottom: 1px solid white;
+}
+
+/* ///////////////////////// */
+
+/* Main  */
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 23px;
+    height: 500px;
+    justify-content: space-between;
+
+}
+
+.apresentacao a {
+    text-decoration: none;
+    color: white;
+}
+
+.item-apresentacao{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    margin: 10px 10px;
+    margin-top: 78px;
+    margin-left: 100px;
+    height: 320px;
+}
+
+.texto-apre-1 p{
+    font-family: 'serious1', sans-serif;
+}
+
+.texto-apre-2, .texto-apre-3{
+    width: 525px;
+    height: 50px;
+}
+
+.texto-apre-2, .texto-apre-3 p{
+    margin-left: 0px;
+    font-family: 'serious1', sans-serif;
+    font-size: 60px;
+}
+
+.texto-apre-3{
+    margin-top: 2px;
+    margin-bottom: 13px;
+}
+
+#texto-apre-4 p{
+    width: 500px;
+    font-size: 17px;
+    margin-top: 12px;
+    
+}
+
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 55px;
+    background-color: #292828;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 85px;
+}
+
+.botao:hover{
+    background-color: rgb(101, 101, 101);
+
+}
+
+
+.categorias{
+  margin-top: 225px; 
+  padding: 20px;
+  display: grid;
+    
+}
+
+.roger img{
+    margin-top: 50px;
+    width: 600px;
+    height: 400px;
+    margin-right: 20px;
+    
+}
+
+
+/* /////////////////////////////////////// */
+
+
+/* Segundo container */
+
+.container-segundo{
+    background-color: #292828;
+    width: 100%;
+    height: 800px;
+    display: grid;
+    color: white;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.picareta{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    gap: 7px;
+}
+
+.picareta img{
+    width: 50px;
+    height: 50px;
+    margin-left: 418px;
+}
+
+#hard{
+    margin-top: 10px;
+    font-size: 45px;
+    font-family: 'serious1', sans-serif;
+    margin-right: 10px;
+}
+
+
+.quem_somos{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img{
+    background-color: white;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.item-img{
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    justify-items: center;
+    margin-bottom: 15px;
+}
+
+.texto-somos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+
+
+}
+
+.texto-somos h1{
+    font-size: 45px;
+    font-family: 'serious1', sans-serif;
+}
+
+.texto-somos p{
+    font-size: 18px;
+}
+
+.hard-skill{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.item-skill{
+    text-align: center;
+}
+
+.item-skill svg{
+    height: 40px;
+    width: 40px;
+}
+
+.item-skill p{
+    font-size: 20px;
+}
+
+.hard-skill-2{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+
+/* ////////////////////////////////////// */
+
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+
+.footer-item-1{
+    margin-top: 100px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.footer-item-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-item-2{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 10;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+/* ================= RESPONSIVIDADE ================= */
+ 
+/* Evita overflow horizontal global */
+html, body {
+    overflow-x: hidden;
+}
+ 
+/* TABLET */
+@media (max-width: 1024px){
+ 
+    .container-principal {
+        height: auto;
+        min-height: 100vh;
+    }
+ 
+    .apresentacao {
+        height: auto;
+    }
+ 
+    .item-apresentacao{
+        margin-left: 40px;
+        width: auto;
+        max-width: 500px;
+        height: auto;
+    }
+ 
+    .texto-apre-2,
+    .texto-apre-3 {
+        width: 100%;
+        height: auto;
+    }
+ 
+    .texto-apre-2 p,
+    .texto-apre-3 p{
+        font-size: 45px;
+    }
+ 
+    #texto-apre-4 p {
+        width: 100%;
+    }
+ 
+    .roger img{
+        width: 350px;
+        height: auto;
+        margin-right: 10px;
+    }
+ 
+    .onda {
+        line-height: 0;
+        margin: 0;
+        padding: 0;
+    }
+ 
+    .onda svg {
+        display: block;
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+ 
+    .container-segundo {
+        height: auto;
+        padding-bottom: 40px;
+        margin-top: 0;
+    }
+ 
+    .picareta img {
+        margin-left: 200px;
+    }
+}
+ 
+/* CELULAR */
+@media (max-width: 768px){
+ 
+    .bg-video {
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+        top: 0;
+    }
+ 
+    /* HEADER */
+    .cabecalho{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 10px 0;
+    }
+ 
+    .paginas{
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ 
+    /* HERO */
+    .container-principal {
+        height: auto;
+        min-height: 100vh;
+    }
+ 
+    .apresentacao{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-top: 10px;
+    }
+ 
+    .item-apresentacao{
+        width: 90%;
+        margin-left: 0;
+        margin-top: 30px;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+ 
+    .texto-apre-2,
+    .texto-apre-3{
+        width: 100%;
+        height: auto;
+    }
+ 
+    .texto-apre-2 p,
+    .texto-apre-3 p{
+        font-size: 32px;
+    }
+ 
+    #texto-apre-4 p{
+        width: 100%;
+        font-size: 14px;
+    }
+ 
+    .botao{
+        margin-top: 30px;
+        width: 80%;
+    }
+ 
+    .roger {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+ 
+    .roger img{
+        width: 80%;
+        height: auto;
+        margin: 20px 0;
+        margin-right: 0;
+    }
+ 
+    /* Onda colada no container-segundo */
+    .onda {
+        line-height: 0;
+        margin: 0;
+        padding: 0;
+    }
+ 
+    .onda svg {
+        display: block;
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+ 
+    /* SOBRE */
+    .container-segundo {
+        height: auto;
+        padding-bottom: 50px;
+        margin-top: 0;
+    }
+ 
+    .quem_somos {
+        height: auto;
+    }
+ 
+    .texto-somos {
+        height: auto;
+        padding: 0 20px;
+    }
+ 
+    .texto-somos h1 {
+        font-size: 36px;
+    }
+ 
+    .texto-somos p{
+        font-size: 15px;
+    }
+ 
+    .picareta{
+        justify-content: center;
+        margin-top: 40px;
+        height: auto;
+    }
+ 
+    .picareta img{
+        margin-left: 0;
+    }
+ 
+    #hard{
+        font-size: 30px;
+        text-align: center;
+    }
+ 
+    .hard-skill,
+    .hard-skill-2{
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+        margin-top: 20px;
+    }
+ 
+    /* FOOTER */
+    footer {
+        height: auto;
+        padding: 30px 0;
+    }
+ 
+    .footer-item-1 {
+        margin-top: 20px;
+        width: auto;
+        height: auto;
+    }
+ 
+    .footer-item-2 {
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+ 
+/* CELULAR PEQUENO */
+@media (max-width: 480px){
+ 
+    .texto-apre-2 p,
+    .texto-apre-3 p{
+        font-size: 24px;
+    }
+ 
+    .roger img{
+        width: 100%;
+    }
+ 
+    .botao{
+        width: 100%;
+        font-size: 14px;
+    }
+ 
+    .texto-somos h1 {
+        font-size: 28px;
+    }
+ 
+    .texto-somos p {
+        font-size: 13px;
+    }
+ 
+    #hard {
+        font-size: 24px;
+    }
+ 
+    .item-skill p {
+        font-size: 16px;
+    }
+}
