@@ -453,6 +453,11 @@ footer{
   .item-img {
     display: flex;
     justify-content: center;
+    width: 100%;
+  }
+ 
+  .item-img .img {
+    margin: 0 auto;
   }
  
   .picareta {
@@ -553,3 +558,4 @@ footer{
     gap: 20px;
   }
 }
+ 
