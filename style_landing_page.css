@@ -328,51 +328,6 @@ footer{
     margin-bottom: 50px;
 }
 
-@media (max-width: 1024px) {
- 
-  .container-principal {
-    height: auto;
-    min-height: 600px;
-  }
- 
-  .item-apresentacao {
-    width: auto;
-    margin-left: 40px;
-    margin-top: 60px;
-  }
- 
-  .texto-apre-2,
-  .texto-apre-3 {
-    width: auto;
-    height: auto;
-  }
- 
-  .texto-apre-2 p,
-  .texto-apre-3 p {
-    font-size: 44px;
-  }
- 
-  #texto-apre-4 p {
-    width: auto;
-    font-size: 15px;
-  }
- 
-  .roger img {
-    width: 380px;
-    height: 260px;
-    margin-right: 10px;
-  }
- 
-  .botao {
-    margin-top: 40px;
-  }
- 
-  .container-segundo {
-    height: auto;
-    padding-bottom: 50px;
-  }
-}
- 
 /* ── Tablets e telas médias (max 1024px) ── */
 @media (max-width: 1024px) {
  
@@ -493,6 +448,11 @@ footer{
   .container-segundo {
     min-height: unset;
     padding-bottom: 40px;
+  }
+ 
+  .item-img {
+    display: flex;
+    justify-content: center;
   }
  
   .picareta {
